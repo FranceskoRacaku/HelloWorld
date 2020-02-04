@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Toast.makeText(getBaseContext(), "You have clicked the button", Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), "You have clicked the button ", Toast.LENGTH_LONG).show();
             }
         });
     }
